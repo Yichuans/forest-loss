@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # SITEURL = 'http://yichuans.github.io/human-footprint/output'
-SITEURL = 'http://world-heritage-analyses.iucn.org/human-footprint'
+SITEURL = 'http://world-heritage-analyses.iucn.org/forest-loss'
 SEARCH_URL = SITEURL + '/search'
 OUTPUT_PATH = 'output_wha/'
 

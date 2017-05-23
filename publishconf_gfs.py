@@ -11,11 +11,11 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # SITEURL = 'http://yichuans.github.io/human-footprint/output'
-SITEURL = 'http://world-heritage-analyses.greenfirescience.com/human-footprint'
+SITEURL = 'http://world-heritage-analyses.greenfirescience.com/forest-loss'
 SEARCH_URL = SITEURL + '/search'
 OUTPUT_PATH = 'output_gfs/'
 
-MENUITEMS = [('country', SITEURL + '/tags')]
+MENUITEMS = [('Country', SITEURL + '/tags')]
 
 RELATIVE_URLS = False
 
@@ -26,6 +26,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 
 # Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = 'forest-loss-natural-world-heritage'
+GOOGLE_ANALYTICS = "UA-61833965-6"
